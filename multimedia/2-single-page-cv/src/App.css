@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  margin-left: 300px;
+  transition: all ease-in-out 0.5s;
+}
+
+@media (max-width: 1199px) {
+  .App {
+    margin-left: 0;
+    transition: all ease-in-out 0.5s;
+  }
 }
 
 .App-logo {
