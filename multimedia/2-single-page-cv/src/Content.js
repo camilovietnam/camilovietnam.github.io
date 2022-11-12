@@ -19,7 +19,7 @@ class Content extends Component{
                     </div>
                 </div>
 
-                <div className="container container-about">
+                <div id="about" className="container container-about">
                     <h1>
                         About
                     </h1>
@@ -86,7 +86,7 @@ class Content extends Component{
 
                 <Separator />
 
-                <div className="container container-resume">
+                <div id="resume" className="container container-resume">
                     <h1>Resume</h1>
 
                     <p>Here are some of my numbers:</p>
@@ -117,7 +117,7 @@ class Content extends Component{
                     </div>
                 </div>
 
-                <div className="container container-skills">
+                <div id="skills" className="container container-skills">
                     <h1>
                         Skills
                     </h1>
@@ -134,7 +134,7 @@ class Content extends Component{
                     </div>
                 </div>
 
-                <div className="container container-portfolio">
+                <div id="portfolio" className="container container-portfolio">
                     <h1>
                         Portfolio
                     </h1>
@@ -160,7 +160,7 @@ class Content extends Component{
                     </div>
                 </div>
 
-                <div className="container-fluid container-contact">
+                <div id="contact" className="container-fluid container-contact">
                     <h1>
                         Contact
                     </h1>

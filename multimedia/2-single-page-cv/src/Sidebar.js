@@ -17,12 +17,24 @@ class Sidebar extends Component{
                     <FontAwesomeIcon className="sidebar-icon" icon={faLinkedinIn} />
                 </div>
                 <ul className="sidebar-list">
-                    <li><FontAwesomeIcon icon={faHome} /> Home </li>
-                    <li><FontAwesomeIcon icon={faUser} /> About</li>
-                    <li><FontAwesomeIcon icon={faFile} /> Resume</li>
-                    <li><FontAwesomeIcon icon={faBook} /> Skills</li>
-                    <li><FontAwesomeIcon icon={faServer} /> Portfolio</li>
-                    <li><FontAwesomeIcon icon={faEnvelopeOpen} /> Contact</li>
+                    <li><FontAwesomeIcon icon={faHome} />
+                        <a href="#content">Home</a>
+                    </li>
+                    <li><FontAwesomeIcon icon={faUser} />
+                        <a href="#about">About</a>
+                    </li>
+                    <li><FontAwesomeIcon icon={faFile} />
+                        <a href="#resume">Resume</a>
+                    </li>
+                    <li><FontAwesomeIcon icon={faBook} />
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li><FontAwesomeIcon icon={faServer} />
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li><FontAwesomeIcon icon={faEnvelopeOpen} />
+                        <a href="#contact">Contact</a>
+                    </li>
                 </ul>
             </div>
         )

@@ -37,8 +37,22 @@
     padding: 3px;
 }
 
-.sidebar-list li{
+.sidebar-list li {
+    margin: 15px 5px;
+}
+
+.sidebar-list li:hover {
+    color: #DDC8C4;
+}
+
+.sidebar-list li a:hover {
+    color: #DDC8C4;
+}
+
+.sidebar-list li a{
     margin: 10px 5px;
+    color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 1199px) {
