@@ -2,6 +2,7 @@
   text-align: center;
   margin-left: 300px;
   transition: all ease-in-out 0.5s;
+  background: #EFF9F0;
 }
 
 @media (max-width: 1199px) {

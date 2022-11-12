@@ -27,8 +27,15 @@
     margin: 10px auto 50px;
 }
 
-.sidebar-icon {
+.sidebar-social a {
     color: #13070c;
+}
+
+.sidebar-social a:hover {
+    color: #6B4D57;
+}
+
+.sidebar-icon {
     background: #eff9f0;
     border-radius: 30%;
     margin: 4px;
@@ -50,7 +57,7 @@
 }
 
 .sidebar-list li a{
-    margin: 10px 5px;
+    margin: 10px 15px;
     color: white;
     text-decoration: none;
 }

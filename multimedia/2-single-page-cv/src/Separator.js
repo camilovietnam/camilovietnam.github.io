@@ -1,5 +1,5 @@
 import {Component} from "react";
-import './Separator.css'
+import './css/Separator.css'
 
 class Separator extends Component {
     constructor(props) {
