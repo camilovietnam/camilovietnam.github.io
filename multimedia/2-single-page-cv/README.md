@@ -16,8 +16,9 @@ It is interesting to summarize our content into one single page, because recruit
 - External font used: <a href="https://fonts.google.com/specimen/Bevan"></a>
 
 ## Visual Design:
-Color palette: <a href="https://coolors.co/eff9f0-ddc8c4-896a67-6b4d57-13070c">See here</a>.
-Design proposal: https://www.figma.com/file/ZVG4QvUCVOZLC8w6aajqkq
+- Color palette: <a href="https://coolors.co/eff9f0-ddc8c4-896a67-6b4d57-13070c">See here</a>.
+- Design proposal: https://www.figma.com/file/ZVG4QvUCVOZLC8w6aajqkq
+
 ## How to run:
 Requisites: Node
 - npm install
