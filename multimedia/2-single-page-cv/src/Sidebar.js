@@ -20,8 +20,8 @@ class Sidebar extends Component{
                     <li><FontAwesomeIcon icon={faHome} /> Home </li>
                     <li><FontAwesomeIcon icon={faUser} /> About</li>
                     <li><FontAwesomeIcon icon={faFile} /> Resume</li>
-                    <li><FontAwesomeIcon icon={faBook} /> Portfolio</li>
-                    <li><FontAwesomeIcon icon={faServer} /> Services</li>
+                    <li><FontAwesomeIcon icon={faBook} /> Skills</li>
+                    <li><FontAwesomeIcon icon={faServer} /> Portfolio</li>
                     <li><FontAwesomeIcon icon={faEnvelopeOpen} /> Contact</li>
                 </ul>
             </div>

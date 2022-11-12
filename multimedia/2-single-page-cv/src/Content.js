@@ -1,14 +1,22 @@
 import './Content.css'
 import {Component} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faPersonDigging,faPersonChalkboard,faPeopleLine,faBug } from '@fortawesome/free-solid-svg-icons';
+import { faPersonDigging,faPersonChalkboard,faPeopleLine,faBug, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Skill from "./Skill";
+import Separator from "./Separator";
+import Using from "./Using";
 
 class Content extends Component{
     render() {
         return (
             <div id="content">
                 <div className="hero" >
+                    <div className={"d-flex flex-column justify-content-center align-items-center centered"}>
+                        <div>
+                            <h1>Professional web design</h1>
+                            <Using />
+                        </div>
+                    </div>
                 </div>
 
                 <div className="container container-about">
@@ -76,6 +84,8 @@ class Content extends Component{
                     </div>
                 </div>
 
+                <Separator />
+
                 <div className="container container-resume">
                     <h1>Resume</h1>
 
@@ -107,7 +117,7 @@ class Content extends Component{
                     </div>
                 </div>
 
-                <div className="container container-portfolio">
+                <div className="container container-skills">
                     <h1>
                         Skills
                     </h1>
@@ -124,16 +134,90 @@ class Content extends Component{
                     </div>
                 </div>
 
-                <div style={{height: "500px"}}>
+                <div className="container container-portfolio">
                     <h1>
-                        Services
+                        Portfolio
                     </h1>
+
+                    <div>
+                        <div className="row">
+                            <div className="col offset-1 col-10 offset-md-0 col-md-6">
+                                <img src="/multimedia/2-single-page-cv/build/port1.png" style={{width: '100%', height: '100%'}} alt=""/>
+                            </div>
+
+                            <div className="col offset-1 col-10 offset-md-0 col-md-6 " >
+                                <img src="/multimedia/2-single-page-cv/build/port2.png" style={{width: '100%', height: '100%'}} alt=""/>
+                            </div>
+
+                            <div className="col offset-1 col-10 offset-md-0 col-md-6 ">
+                                <img src="/multimedia/2-single-page-cv/build/port3.png" style={{width: '100%', height: '100%'}} alt=""/>
+                            </div>
+
+                            <div className="col offset-1 col-10 offset-md-0 col-md-6 ">
+                                <img src="/multimedia/2-single-page-cv/build/port4.png" style={{width: '100%', height: '100%'}} alt=""/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div style={{height: "500px"}}>
+                <div className="container-fluid container-contact">
                     <h1>
                         Contact
                     </h1>
+
+                    <div>
+                        For a quick enquiry, fill this form and include your email address. I will get
+                        back to you as soon as possible.
+
+                        <div>
+                            <form className={"form"}>
+                                <div className="grid">
+
+                                    <div className="row">
+                                        <div className="col col-4">
+                                            <label htmlFor="name" className="form-label">
+                                                Name
+                                            </label>
+                                        </div>
+                                        <div className="col col-lg-4 col-md-6 col-8">
+                                            <input type="text" name="name" id="name" className={"form-control"}/>
+                                        </div>
+                                    </div>
+
+                                    <div className="row">
+                                        <div className="col col-4">
+                                            <label htmlFor="name" className="form-label">
+                                                Email
+                                            </label>
+                                        </div>
+                                        <div className="col col-lg-4 col-md-6 col-8">
+                                            <input type="text" name="name" id="name" className={"form-control"}/>
+                                        </div>
+                                    </div>
+
+                                    <div className="row">
+                                        <div className="col col-4">
+                                            <label htmlFor="name" className="form-label">
+                                                Message
+                                            </label>
+                                        </div>
+                                        <div className="col col-lg-4 col-md-6 col-8">
+                                            <textarea className={"form-control"}/>
+                                        </div>
+                                    </div>
+
+                                    <div className="row">
+                                        <div className="col-12">
+                                            <button className="btn btn-primary">
+                                                <FontAwesomeIcon className="icon" icon={faEnvelope} />
+                                                &nbsp;Send message
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
 
             </div>
