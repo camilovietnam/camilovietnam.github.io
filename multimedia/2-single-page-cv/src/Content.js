@@ -2,6 +2,7 @@ import './Content.css'
 import {Component} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPersonDigging,faPersonChalkboard,faPeopleLine,faBug } from '@fortawesome/free-solid-svg-icons';
+import Skill from "./Skill";
 
 class Content extends Component{
     render() {
@@ -104,14 +105,23 @@ class Content extends Component{
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
-                <div style={{height: "500px"}}>
+                <div className="container container-portfolio">
                     <h1>
-                        Portfolio
+                        Skills
                     </h1>
+
+                    <div className="grid">
+                        <div className="row">
+                            <Skill name={"HTML"} value={"100"}/>
+                            <Skill name={"Javascript"} value={"95"}/>
+                            <Skill name={"Python"} value={"30"}/>
+                            <Skill name={"Project Management"} value={"45"}/>
+                            <Skill name={"Agile/Scrum"} value={"65"}/>
+                            <Skill name={"CI/CD"} value={"80"}/>
+                        </div>
+                    </div>
                 </div>
 
                 <div style={{height: "500px"}}>

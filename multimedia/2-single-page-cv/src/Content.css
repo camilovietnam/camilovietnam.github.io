@@ -8,6 +8,7 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
+    background-position: right;
 }
 
 #content h1 {
@@ -93,4 +94,8 @@
     .hero {
         background-attachment: fixed;
     }
+}
+
+.float-right {
+    float: right;
 }

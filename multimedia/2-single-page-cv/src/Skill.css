@@ -1,0 +1,13 @@
+.progress-bar {
+    height: 10px;
+    background-color: #DDC8C4;
+}
+
+.progress-bar > div {
+    background: #6B4D57;
+    height: 100%;
+}
+
+.skill {
+    padding: 20px;
+}
