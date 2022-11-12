@@ -1,5 +1,7 @@
-# Project Analysis:
+This page is live at: https://camilovietnam.github.io/multimedia/2-single-page-cv/build/
+<hr />
 
+# Project Analysis:
 ## Target User Profile:
 The user of this website will be an IT recruiter looking to gather more information about a potential candidate. We expect the person to be: 
 - Female, between 25 and 35 years old.
@@ -13,7 +15,7 @@ It is interesting to summarize our content into one single page, because recruit
 - CSS library: <a href="https://getbootstrap.com/">Bootstrap</a>
 - Built using React and https://create-react-app.dev/
 - Icons: <a href="https://fontawesome.com/">Font Awesome</a>
-- External font used: <a href="https://fonts.google.com/specimen/Bevan"></a>
+- External font used: <a href="https://fonts.google.com/specimen/Bevan">BEVAN</a>
 
 ## Visual Design:
 Color palette: <a href="https://coolors.co/eff9f0-ddc8c4-896a67-6b4d57-13070c">See here</a>.
@@ -23,3 +25,5 @@ Requisites: Node
 - npm install
 - npm run start
 - open http://localhost:3000/multimedia/2-single-page-cv/build
+
+The react code can be compiled using the command `npm run build`. The new compiled code will be placed in the /build folder. 
